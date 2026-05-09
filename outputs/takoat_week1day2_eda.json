@@ -1,0 +1,17 @@
+{
+    "day": 2,
+    "dataset": "Titanic (Heptapod)",
+    "eda_statistics": {
+        "age_mean": 29.50318563789152,
+        "fare_mean": 33.28108563789152,
+        "survival_rate": 0.2612681436210848
+    },
+    "key_observations": [
+        "Strongest positive correlation with survival is likely Sex or Fare.",
+        "Pclass shows a negative correlation (higher class number = lower survival).",
+        "Significant missing values in Age still need handling in Day 3."
+    ],
+    "files_generated": [
+        "correlation_heatmap.png"
+    ]
+}

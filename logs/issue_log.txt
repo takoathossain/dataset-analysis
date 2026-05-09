@@ -1,0 +1,1 @@
+Day 2 Issue: FileNotFoundError due to path mismatch (dataset.csv vs train_and_test2.csv). Fixed by updating script path.
