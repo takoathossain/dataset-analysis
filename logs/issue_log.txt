@@ -11,3 +11,7 @@ Fix: Created the script using the notebook file-writing block and verified exist
 Day 5 Issue: KeyError '1.0' in classification_report dictionary.
 Cause: The report keys matched the integer target (1) instead of the expected float string ('1.0').
 Fix: Implemented dynamic key detection to ensure metrics are pulled correctly regardless of label format.
+
+Day 5 Issue: KeyError '1.0' when accessing classification_report.
+Cause: The dictionary keys were integers (1) or strings ('1') rather than floats ('1.0') because of the target column's data type.
+Fix: Implemented dynamic key detection in src/day5_evaluation.py to search for '1', '1.0', or 1 before extracting metrics.
