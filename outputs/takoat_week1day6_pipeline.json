@@ -1,0 +1,9 @@
+{
+    "day": 6,
+    "pipeline_steps": [
+        "StandardScaler",
+        "LogisticRegression"
+    ],
+    "model_path": "models/takoat_titanic_model.pkl",
+    "status": "Complete"
+}
