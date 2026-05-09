@@ -7,3 +7,7 @@ Fix: Used 'os.makedirs()' to force directory creation and switched to absolute p
 Day 4 Issue: git add failed for day4_model_training.py.
 Cause: Attempted to stage file before physical creation in the src/ directory.
 Fix: Created the script using the notebook file-writing block and verified existence before staging.
+
+Day 5 Issue: KeyError '1.0' in classification_report dictionary.
+Cause: The report keys matched the integer target (1) instead of the expected float string ('1.0').
+Fix: Implemented dynamic key detection to ensure metrics are pulled correctly regardless of label format.
