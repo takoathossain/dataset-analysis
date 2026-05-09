@@ -1,0 +1,77 @@
+{
+  "dataset": "Titanic - Machine Learning from Disaster",
+  "source": "Kaggle",
+  "author": "Takoat Hossain",
+  "group": "A",
+  "week": 1,
+  "day": 1,
+  "task": "Binary Classification - Predict Survival",
+  "total_rows": 1309,
+  "total_columns": 9,
+  "target_column": "2urvived",
+  "target_classes": {
+    "0": "Did not survive",
+    "1": "Survived"
+  },
+  "target_distribution": {
+    "survived": 342,
+    "not_survived": 967,
+    "survival_rate_pct": 26.13
+  },
+  "usable_features": [
+    "Age",
+    "Fare",
+    "Sex",
+    "sibsp",
+    "Parch",
+    "Pclass",
+    "Embarked"
+  ],
+  "dropped_columns": [
+    "Passengerid",
+    "zero",
+    "zero.1",
+    "zero.2",
+    "zero.3",
+    "zero.4",
+    "zero.5",
+    "zero.6",
+    "zero.7",
+    "zero.8",
+    "zero.9",
+    "zero.10",
+    "zero.11",
+    "zero.12",
+    "zero.13",
+    "zero.14",
+    "zero.15",
+    "zero.16",
+    "zero.17",
+    "zero.18"
+  ],
+  "feature_dtypes": {
+    "Age": "float64",
+    "Fare": "float64",
+    "Sex": "int64",
+    "sibsp": "int64",
+    "Parch": "int64",
+    "Pclass": "int64",
+    "Embarked": "float64"
+  },
+  "missing_values": {
+    "Embarked": {
+      "count": 2,
+      "percent": 0.15
+    }
+  },
+  "numeric_features": [
+    "Age",
+    "Fare",
+    "Sex",
+    "sibsp",
+    "Parch",
+    "Pclass",
+    "Embarked"
+  ],
+  "categorical_features": []
+}
