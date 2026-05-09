@@ -1,0 +1,22 @@
+{
+    "day": 3,
+    "transformations": [
+        {
+            "column": "Age",
+            "action": "Median Imputation"
+        },
+        {
+            "column": "Embarked",
+            "action": "Mode Imputation"
+        },
+        {
+            "column": [
+                "Age",
+                "Fare"
+            ],
+            "action": "Standard Scaling"
+        }
+    ],
+    "status": "Success",
+    "processed_file": "processed_dataset.csv"
+}
