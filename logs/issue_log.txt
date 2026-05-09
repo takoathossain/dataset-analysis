@@ -1,1 +1,9 @@
 Day 2 Issue: FileNotFoundError due to path mismatch (dataset.csv vs train_and_test2.csv). Fixed by updating script path.
+
+Day 3 Issue: FileNotFoundError when creating day3_feature_engineering.py.
+Cause: The 'src/' directory was not found using a relative path from the notebook.
+Fix: Used 'os.makedirs()' to force directory creation and switched to absolute paths.
+
+Day 4 Issue: git add failed for day4_model_training.py.
+Cause: Attempted to stage file before physical creation in the src/ directory.
+Fix: Created the script using the notebook file-writing block and verified existence before staging.

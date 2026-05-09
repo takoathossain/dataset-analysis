@@ -1,0 +1,26 @@
+{
+    "day": 4,
+    "model_type": "Logistic Regression",
+    "train_test_split": "80/20",
+    "sample_predictions": [
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        1,
+        0,
+        0
+    ],
+    "features_used": [
+        "Age",
+        "Fare",
+        "Sex",
+        "sibsp",
+        "Parch",
+        "Pclass",
+        "Embarked"
+    ]
+}
